@@ -1,6 +1,7 @@
 import '../assets/login.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
+import { Link } from 'react-router-dom';
 import iconlogin from '../assets/images/iconlogin.png'
 import username from '../assets/images/username.png'
 import password from '../assets/images/password.png'
@@ -33,7 +34,7 @@ function Login(){
                             <input type="Submit" className='buton inpuut'></input>
                         </div>  
                         <div className='col-12 mt-2'>
-                            <span>Already have an account? <a href="/login">Signin</a></span>
+                            <span>Already have an account? <Link to="/login">Signin</Link></span>
                         </div> 
                         
                     </from>
