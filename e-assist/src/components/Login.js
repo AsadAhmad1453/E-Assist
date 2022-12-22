@@ -29,7 +29,7 @@ function Login(){
                             <input type="Submit" className='buton inpuut'></input>
                         </div>  
                         <div className='col-12 mt-2'>
-                            <span>Do not have an account? <a href=''>Signup</a></span>
+                            <span>Do not have an account? <a href='/signup'>Signup</a></span>
                         </div> 
                         
                     </from>
