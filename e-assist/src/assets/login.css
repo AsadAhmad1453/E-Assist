@@ -1,0 +1,57 @@
+
+.cool{
+    border: 2px solid black;
+}
+.image{
+    background-image: 
+    url(./images/loginpage1.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat; 
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.inpuut{
+    padding-left:10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    width: 40%;
+    border:none;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 10px;
+    -webkit-appearance: none;
+
+    
+}
+.buton{
+    background-color: rgb(160, 119, 255) ;
+    width: 30%;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+}
+.buton:hover{
+    background-color: rgb(116, 85, 187);
+}
+input:active{
+
+    border: 2px solid rgb(76, 0, 253);
+}
+.welcome{
+    font-weight: 700;
+    font-size: 28px;
+    color: rgb(116, 85, 187);
+    
+}
+span{
+    color:rgb(73, 73, 73) ;
+    font-size: 15px;
+}
+.slogan{
+    font-weight: 500;
+    font-size: 18px;
+}
