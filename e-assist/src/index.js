@@ -4,18 +4,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Header from './components/Header';
-import Sidebar from './components/Sidebar'
+import Sidebar from './components/Sidebar';
+import Producthunting from './components/Producthunting';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
       <BrowserRouter>
-      <Header/>
-      <Sidebar/>
+     
             <Routes>
-           
-                   {/* <Route path="/login" element={<Login/>} />
-                   <Route path="/signup" element={<Signup/>} /> */}
+                  <Route path="/producthunting" element={<Producthunting/>}/>
+                   <Route path="/login" element={<Login/>} />
+                   <Route path="/signup" element={<Signup/>} />
                  
             </Routes>
       
