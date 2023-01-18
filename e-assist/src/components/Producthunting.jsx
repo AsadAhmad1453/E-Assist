@@ -1,9 +1,12 @@
 import '../assets/login.css';
-function producthunting(){
+
+function producthunting(props){
     return(
-        <>
-        producthunting
-        </>
+       <>
+        <div className="content">
+            dasjdajsdoisjoiaj
+      </div>
+       </>
     )
 }
 export default producthunting;

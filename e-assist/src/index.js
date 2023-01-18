@@ -5,7 +5,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
-import Producthunting from './components/Producthunting';
+import Dashboard from './components/Dashboard';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,9 +13,10 @@ root.render(
       <BrowserRouter>
      
             <Routes>
-                  <Route path="/producthunting" element={<Producthunting/>}/>
+                  <Route path="/dashboard" element={<Dashboard/>}/>
                    <Route path="/login" element={<Login/>} />
                    <Route path="/signup" element={<Signup/>} />
+                   
                  
             </Routes>
       

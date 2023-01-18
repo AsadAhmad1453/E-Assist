@@ -105,3 +105,66 @@ span{
 .form{
     width: 50%;
 }
+
+.sidebar-container {
+    display: flex;
+  }
+.sidebar {
+    width: 300px;
+    height: 100%;
+    background-color:#A569BD;
+    transition: all 0.3s ease-in-out;
+  }  
+  .sidebar.closed {
+    width: 0;
+  }
+  .content {
+    flex: 1;
+    height: 100%;
+    background: white;
+    transition: all 0.3s ease-in-out;
+  }
+ 
+ .togglebutton{
+  border-radius:10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #A569BD;
+  border: 2px solid white;
+  }
+  .togglebutton i{
+    color: white;
+  }
+  .nav-link{
+    margin-right:30px;
+  }
+  .brand-name{
+    margin-left: 30px;
+    color: white;
+  }
+  .navbar{
+    background-color: #7D3C98;
+    text-decoration: none;
+    color: white;
+  }
+  .user-info h6{
+    margin-right: 30px;
+  }
+  .logout-btn{
+    margin-right: 30px;
+    color: white;
+    background-color: #A569BD;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  
+
+  
