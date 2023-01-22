@@ -3,14 +3,14 @@ import {useState, useEffect} from 'react';
 import {Link} from 'react'
 function Header(props)
 {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
     useEffect(()=>{
         props.onsidebarupdate(isOpen);
        
     },[isOpen]);
     return(
         <>
-       <nav className="navbar navbar-expand-lg ">
+       <nav className="navbar sticky-top navbar-expand-lg ">
        <button className="togglebutton"  onClick={() => setIsOpen(!isOpen)}>
        <i class="fas fa-bars"></i>
        </button>
@@ -22,7 +22,6 @@ function Header(props)
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"/> Logout</a>
-               
             </div>
             </div>
            </div>

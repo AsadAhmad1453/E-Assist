@@ -3,18 +3,24 @@ import { useState } from 'react';
 import Sidebar from './Sidebar';
 import Header from './Header';
 import Producthunting from './Producthunting';
+import Productsourcing from './Productsourcing';
+import Dashboardhome from './Dashboardhome';
+import Productranking from './Productranking';
 
-function Dashboard(){
+function Dashboard(props){
 
     const [sidebar, setsidebar] = useState("");
 
     return(
-        <div className='container-fluid px-0'>
+        <div className='container-fluid  px-0'>
             <Header onsidebarupdate={setsidebar}/>
             <div className="sidebar-container">
                     <Sidebar sidebarstatus={sidebar}/>
-                    <div className={`content ${sidebar? "" : "full-width"}`}>
-                        <h1>hellooooooooooooooooooooooooooooooooooo</h1>
+                    <div className={`content dash-content ${sidebar? "shrink" : ""}`}>
+                    {props.component=="dashboardhome" && <Dashboardhome/>}
+                    {props.component=="producthunting" && <Producthunting/>}
+                    {props.component=="productsourcing" && <Productsourcing/>}
+                    {props.component=="productranking" && <Productranking/>}
                     </div>
                 
             </div>
