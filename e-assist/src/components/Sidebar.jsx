@@ -41,13 +41,8 @@ function Sidebar(props){
             <hr></hr>
         </li>
         <li>
-        <Link to="/contentwriting"><i className="fa-solid fa-pen-to-square"></i>  Content Writing</Link>
+        <Link to="/contentwriting"><i className="fa-solid fa-pen-to-square"></i>  Keyword Researching</Link>
         </li>
-        <li>
-        <Link to="/imageoptimization"><i className="fa-solid fa-camera"></i>  Image Optimization</Link>
-        </li>
-       
-        
        </ul>
       </div>
       
