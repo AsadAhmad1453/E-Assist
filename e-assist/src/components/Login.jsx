@@ -1,7 +1,7 @@
 import '../assets/login.css';
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.bundle'
-import googlelogo from'../assets/images/google.png'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import googlelogo from'../assets/images/google.png';
 
 import { Link } from 'react-router-dom';
 

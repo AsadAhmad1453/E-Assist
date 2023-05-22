@@ -116,13 +116,15 @@ span{
       display: flex;
       height: 100%;
   }
+
 .sidebar {
   width: 250px;
   height: 100%;
-  background-color:var(--light-color);
+  background-color:var(--primary-color);
   position: fixed;
   margin-top: 50px;
-  color: white;
+  color: var(--light-color);
+  font-weight: 600;
   top: 0;
   left: -250px; /* hide the sidebar initially */
  
@@ -134,12 +136,19 @@ span{
   .sidebar li {
     list-style: none;
     margin-top: 20px;
+    
+  }
+  .sidebar h6{
+    font-weight: 600;
+  }
+  .sidebar h5{
+    font-weight: 600;
   }
   .sidebar li a{
     text-decoration: none;
-    color: white;
+    color: var(--light-color);
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 500;
   }
   .sidebar li a:hover{
     font-weight: 600;
@@ -173,10 +182,11 @@ span{
   }
   .brand-name{
     margin-left: 30px;
-    color: white;
+    color: var(--primary-color);
+    font-weight: 600;
   }
   .navbar{
-    background-color: var(--primary-color);
+    background-color: var(--light-color);
     text-decoration: none;
     color: white;
     height: 50px;
