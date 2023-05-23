@@ -1,23 +1,30 @@
 import '../assets/login.css';
-function Header()
-
+import {useState, useEffect} from 'react';
+import {Link} from 'react'
+function Header(props)
 {
+    const [isOpen, setIsOpen] = useState(true);
+    useEffect(()=>{
+        props.onsidebarupdate(isOpen);
+       
+    },[isOpen]);
     return(
         <>
-        <h1>HELLOOO</h1>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+       <nav className="navbar sticky-top navbar-expand-lg ">
+       <button className="togglebutton"  onClick={() => setIsOpen(!isOpen)}>
+       <i class="fas fa-bars"></i>
+       </button>
+            <h4 className="brand-name" href="#">E-assist</h4>
+           <div className='user-info ml-auto'>
+           <div class="dropdown">
+            <button class="logout-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-user" aria-hidden="true"/> Muhammad Asad   
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                </div>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"/> Logout</a>
             </div>
+            </div>
+           </div>
         </nav>
         </>
     )
