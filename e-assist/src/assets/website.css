@@ -271,4 +271,101 @@ margin-right: 10px;
 .service-card:hover{
     background-color: var(--primary-color);
     cursor: pointer;
+    transition: 1s;
+}
+
+.service-banner-two{
+    background-image:
+    linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./images/servicebannertwo.jpg');
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sbtwo{
+    padding: 40px;
+}
+.wcu{
+    color: var(--primary-color) !important;
+    
+    
+}
+.wwd{
+    color: white;
+    font-weight: 600;
+}
+.service-banner-two span{
+    color: white;
+}
+.service-banner-two ul li{
+    list-style: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 10px;
+}
+.service-banner-two img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.transparent-card{
+    border-radius:5px;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    
+    padding: 20px;
+}
+.transparent-card h5{
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.servicetwocard{
+    padding: 10px;
+}
+.ourvision h5{
+    color: var(--primary-color);
+}
+.ourvision h2{
+    color: var(--light-color);
+    font-weight: 600;
+}
+.ourvision h6{
+    font-weight: 600;
+    color: var(--primary-color);
+
+}
+.service-banner-three{
+    background-image:
+    linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./images/servicebannerthree.jpg');
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.service-banner-three span{
+    color: white;
+}
+.service-banner-three h3{
+    color: white;
+}
+.button-get-started{
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:30px;
+    padding-right: 30px;
 }
