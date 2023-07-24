@@ -5,7 +5,7 @@ import Header from './Header';
 import Producthunting from './Producthunting';
 import Productsourcing from './Productsourcing';
 import Dashboardhome from './Dashboardhome';
-import Productranking from './Productranking';
+import Productlisting from './Productlisting';
 
 function Dashboard(props){
 
@@ -20,7 +20,7 @@ function Dashboard(props){
                     {props.component=="dashboardhome" && <Dashboardhome/>}
                     {props.component=="producthunting" && <Producthunting/>}
                     {props.component=="productsourcing" && <Productsourcing/>}
-                    {props.component=="productranking" && <Productranking/>}
+                    {props.component=="productlisting" && <Productlisting/>}
                     </div>
                 
             </div>

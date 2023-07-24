@@ -369,3 +369,70 @@ margin-right: 10px;
     padding-left:30px;
     padding-right: 30px;
 }
+
+.aboutus{
+    margin-top: 60px;
+}
+.button-aboutus{
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.aboutus-card{
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    min-height: 150px;
+    
+}
+.aboutus-card h5{
+    color: var(--light-color);
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+.aboutusbanner{
+    background-image:
+    linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./images/aboutusbanner.jpg');
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutusbanner span{
+    color: white;
+}
+.contact-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 40px;
+}
+.submitbtn{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.dropdown-item{
+    color: white;
+}
+.card-sidebar{
+    text-align: center;
+    padding: 20px;
+}
+.suggested-product{
+    background-color:#281e32;
+    color: white;
+}

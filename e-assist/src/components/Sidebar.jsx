@@ -3,7 +3,7 @@ import userimage from '../assets/images/userimage.jpg';
 import {Link} from 'react-router-dom';
 function Sidebar(props){
 
-
+    let auth = localStorage.getItem("user");
     
     return( 
         
@@ -13,8 +13,12 @@ function Sidebar(props){
       <div className={`sidebar ${props.sidebarstatus? "open" : ""}`}>
         <div className='container mt-4 '>
             <div className='row '>
-                <div className='col-12'>
-                    <h6><img src="https://img.icons8.com/color/48/null/circled-user-male-skin-type-7--v1.png"/> Muhammad Asad</h6>
+                <div className='col-12 justify-content-center'>
+                    <div className='card-sidebar'>
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/circled-user-male-skin-type-7--v1.png" alt="circled-user-male-skin-type-7--v1"/>
+                    <h5> {JSON.parse(auth).name} </h5>
+                    </div>
+              
                 </div>
             </div>
         </div>
@@ -27,22 +31,20 @@ function Sidebar(props){
             <hr></hr>
         </li>
         <li>
-            <Link to="/producthunting" ><i className="fa fa-search" aria-hidden="true"/> Product Hunting</Link>
+            <Link to="/dashboard/producthunting/" ><i className="fa fa-search" aria-hidden="true"/> Product Hunting</Link>
         </li>
         <li>
-        <Link to="/productsourcing"><i className="fa-solid fa-truck"></i> Product Sourcing</Link>
+        <Link to="/dashboard/productsourcing/key/key/key"><i className="fa-solid fa-truck"></i> Product Sourcing</Link>
         </li>
         <li>
-        <Link to="/productranking"><i className="fa fa-line-chart"></i>  Product Ranking</Link>
+        <Link to="/dashboard/productlisting/key/key/key/key"><i className="fa fa-line-chart"></i>  Product Listing</Link>
         </li>
-      
-        <li className='mt-4'>
-            <h5>Tools</h5>
+        <li className='mt-5'>
+            <h6><img width="30" height="30" src="https://img.icons8.com/color/48/checked--v1.png" alt="checked--v1"/> Account Connected</h6>
+            <h8>{JSON.parse(auth).storeemail}</h8>
             <hr></hr>
         </li>
-        <li>
-        <Link to="/contentwriting"><i className="fa-solid fa-pen-to-square"></i>  Keyword Researching</Link>
-        </li>
+       
        </ul>
       </div>
       
