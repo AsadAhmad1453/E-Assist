@@ -8,7 +8,6 @@ import report from '../../assets/images/report.png';
 import dollar from '../../assets/images/dollar.png';
 import optimization from '../../assets/images/optimization.png';
 import serviceillustration from '../../assets/images/serviceillustration.jpg';
-import servicebanner from '../../assets/images/servicebannerthree.jpg';
 
 
 
@@ -107,9 +106,9 @@ function Producthunting(){
 
                 <div className='row service-banner-three mt-5 p-4'>
                         <div className='sbtwo col-lg-6 col-md-6 col-sm-12 '>
-                            <h3 className='wcu'>Why Choose us</h3>
-                            <h1 className='wwd'>What we do?</h1>
-                            <span>Nulla ac eros vel neque mattis maximus. In et feugiat neque,<br></br> vel porta ante. Morbi at justo justo. Etiam eget eros ac enim iaculis sagittis. Maecenas eget sapien purus. Phasellus gravida viverra convallis. Ut vitae mauris tincidunt, pharetra turpis condimentum,<br></br> eleifend ipsum. Proin mollis bibendum odio, eu scelerisque lacus fermentum in.</span>
+                            <h3 className='wcu'>The project that completed</h3>
+                            <h1 className='wwd'>Our Project have been done</h1>
+                            <span>ravida viverra convallis. Ut vitae mauris tincidunt, pharetra turpis condimentum,<br></br> eleifend ipsum. Proin mollis bibendum odio, eu scelerisque lacus fermentum in.</span>
                             <h3 className='mt-4 '>Intresting?</h3>
                             <button className='mt-4 button-get-started'>Let's Start</button>
                         </div>
@@ -139,6 +138,10 @@ function Producthunting(){
                           
                             
                         </div>
+                </div>
+
+                <div className='row mt-4'>
+
                 </div>
             </div>
 

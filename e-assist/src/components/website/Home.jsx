@@ -25,8 +25,8 @@ function Home(){
        <div className='container-fluid'>
             <div className='row banner'>
                 <div className='col-12 '>
-                    <h1>Amazon Virtual Assistant Automation</h1>
-                    <span>It's an excellent platform for amazon sellers to run their business without human interaction on amazon<br></br> without any risk involved.</span>
+                    <h1> Virtual Assistant Automation</h1>
+                    <span>It's an excellent platform for sellers to run their business without human interaction    <br></br> without any risk involved.</span>
                     <div className='buttons mt-4'>
                         <button className='btn-left'>Get started</button>
                         <button className='btn-right'>Learn More</button>
@@ -48,10 +48,10 @@ function Home(){
                 <div className='first-content mt-3'>
                     <ul>
                         <li className='mt-2'><img src={tickorange}/>Easy to use</li>
-                        <li className='mt-2'><img src={tickorange}/>Amazon Integration</li>
-                        <li className='mt-2'><img src={tickorange}/>Image Generator</li>
+                        <li className='mt-2'><img src={tickorange}/>Shopify Integration</li>
+                        <li className='mt-2'><img src={tickorange}/>Product Resourcing</li>
                         <li className='mt-2'><img src={tickorange}/>Visual Listing optimization</li>
-                        <li className='mt-2'><img src={tickorange}/>High Quality Support</li>
+                        <li className='mt-2'><img src={tickorange}/>Responsive</li>
                     </ul>
                 </div>
             </div>
@@ -97,42 +97,7 @@ function Home(){
                 </div>
                 </a>         
             </div>
-            <div className='col-lg-4 col-md-6 col-sm-12 p-4 service-block'>
-                <a href=''>
-                <div className='cardd'>
-                        <h5><img src={ranking}/>Product Ranking</h5>
-                        <div className='card-content p-2'>
-                            <span>
-                             We offer product hunting to automate the process of hunting products manually and give you the best possible results 
-                            </span>
-                        </div>
-                </div>
-                </a>         
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12 p-4 service-block'>
-                <a href=''>
-                <div className='cardd'>
-                        <h5><img src={camera}/>Image Optimization</h5>
-                        <div className='card-content p-2'>
-                            <span>
-                             We offer product hunting to automate the process of hunting products manually and give you the best possible results 
-                            </span>
-                        </div>
-                </div>
-                </a>         
-            </div>
-            <div className='col-lg-4 col-md-6 col-sm-12 p-4 service-block'>
-                <a href=''>
-                <div className='cardd'>
-                        <h5><img src={search}/>Keyword Research</h5>
-                        <div className='card-content p-2'>
-                            <span>
-                             We offer product hunting to automate the process of hunting products manually and give you the best possible results 
-                            </span>
-                        </div>
-                </div>
-                </a>         
-            </div>
+          
         </div>
 </div>  
 
@@ -141,19 +106,19 @@ function Home(){
                         <div className='sbtwo col-lg-6 col-md-6 col-sm-12 '>
                             <h3 className='wcu'>Why Choose us</h3>
                             <h1 className='wwd'>What we do?</h1>
-                            <span>Nulla ac eros vel neque mattis maximus. In et feugiat neque,<br></br> vel porta ante. Morbi at justo justo. Etiam eget eros ac enim iaculis sagittis. Maecenas eget sapien purus. Phasellus gravida viverra convallis. Ut vitae mauris tincidunt, pharetra turpis condimentum,<br></br> eleifend ipsum. Proin mollis bibendum odio, eu scelerisque lacus fermentum in.</span>
+                            <span>Choose E-Assist for its revolutionary approach to e-commerce. Our user-friendly platform streamlines product resourcing,<br></br> empowering you to make informed decisions about your inventory. Experience enhanced efficiency,<br></br> elevated profitability, and success in the dynamic e-commerce landscape.</span>
                             <div className='row mt-4'>
                                 <div className='col-6'>
                                     <ul>
-                                        <li><img src={tickorange}/>Customer Funnel Booster</li>
-                                        <li><img src={tickorange}/>Remarketing Blueprint</li>
-                                        <li><img src={tickorange}/>Lead Nurturing Scheme</li>
+                                        <li><img src={tickorange}/> E-Commerce Solution</li>
+                                        <li><img src={tickorange}/>User-Friendly Product Resourcing</li>
+                                        <li><img src={tickorange}/>Informed Decision-Making for Inventory</li>
                                     </ul>
                                 </div>
                                 <div className='col-6'>
                                     <ul>
-                                        <li><img src={tickorange}/>Vulputate massa</li>
-                                        <li><img src={tickorange}/>Phasellus odio dolor</li>
+                                        <li><img src={tickorange}/>Enhanced Efficiency and Profitability</li>
+                                        <li><img src={tickorange}/>Success in the Dynamic E-Commerce Landscape</li>
                                         <li><img src={tickorange}/>Aliquam sed finibus</li>
                                     </ul>
                                 </div>  
@@ -292,8 +257,8 @@ function Home(){
                     </div>
                 </div>
             </div>
-       
-        
+            
+            
        </div>
        <Footer/>
        </>

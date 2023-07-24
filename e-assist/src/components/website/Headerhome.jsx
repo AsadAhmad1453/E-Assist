@@ -1,6 +1,8 @@
 import '../../assets/website.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import { Link } from "react-router-dom";
+
 
 function Headerhome(){
     return(
@@ -13,7 +15,7 @@ function Headerhome(){
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+                    <Link class="nav-link" to="/"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></Link>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown show">
@@ -22,17 +24,17 @@ function Headerhome(){
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item  mt-2" href="#">Product Hunting</a>
-                            <a class="dropdown-item  mt-2" href="#">Product Listing</a>
+                            <Link to="/producthunting" class="dropdown-item  mt-2">Product Hunting</Link>
+                            <Link class="dropdown-item  mt-2" to="/productresourcing">Product Resourcing</Link>
                             <a class="dropdown-item  mt-2" href="#">Keyword Research</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i> About Us</a>
+                    <Link class="nav-link" to="/aboutus"><i class="fa fa-user" aria-hidden="true"></i> About Us</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</a>
+                    <Link class="nav-link" to="/contactus"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</Link>
                 </li>
                 </ul>
             </div>
